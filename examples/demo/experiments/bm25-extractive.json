@@ -1,0 +1,14 @@
+{
+  "name": "bm25-extractive",
+  "dataset": "../dataset",
+  "retriever": {
+    "type": "bm25",
+    "params": {}
+  },
+  "generator": {
+    "type": "extractive",
+    "params": {}
+  },
+  "top_k": 5,
+  "description": "BM25 + single-sentence extractive generator"
+}

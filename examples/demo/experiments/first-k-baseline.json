@@ -1,0 +1,14 @@
+{
+  "name": "first-k-baseline",
+  "dataset": "../dataset",
+  "retriever": {
+    "type": "first-k",
+    "params": {}
+  },
+  "generator": {
+    "type": "extractive",
+    "params": {}
+  },
+  "top_k": 5,
+  "description": "Query-blind baseline: first k corpus documents"
+}

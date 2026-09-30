@@ -1,0 +1,16 @@
+{
+  "name": "char-ngram-extractive",
+  "dataset": "../dataset",
+  "retriever": {
+    "type": "char-ngram",
+    "params": {
+      "n": 3
+    }
+  },
+  "generator": {
+    "type": "extractive",
+    "params": {}
+  },
+  "top_k": 5,
+  "description": "Hashed character n-gram retriever + extractive generator"
+}

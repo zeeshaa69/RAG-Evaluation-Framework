@@ -1,0 +1,14 @@
+{
+  "name": "tfidf-extractive",
+  "dataset": "../dataset",
+  "retriever": {
+    "type": "tfidf",
+    "params": {}
+  },
+  "generator": {
+    "type": "extractive",
+    "params": {}
+  },
+  "top_k": 5,
+  "description": "TF-IDF cosine + single-sentence extractive generator"
+}

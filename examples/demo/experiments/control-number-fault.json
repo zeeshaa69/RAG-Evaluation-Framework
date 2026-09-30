@@ -1,0 +1,16 @@
+{
+  "name": "control-number-fault",
+  "dataset": "../dataset",
+  "retriever": {
+    "type": "bm25",
+    "params": {}
+  },
+  "generator": {
+    "type": "fault-injection",
+    "params": {
+      "mode": "number"
+    }
+  },
+  "top_k": 5,
+  "description": "Evaluator control: answers deliberately corrupted by changing a number"
+}

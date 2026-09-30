@@ -1,0 +1,16 @@
+{
+  "name": "bm25-two-sentences",
+  "dataset": "../dataset",
+  "retriever": {
+    "type": "bm25",
+    "params": {}
+  },
+  "generator": {
+    "type": "extractive",
+    "params": {
+      "max_sentences": 2
+    }
+  },
+  "top_k": 3,
+  "description": "BM25 top-3, two-sentence answers"
+}

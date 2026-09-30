@@ -1,0 +1,34 @@
+{"id": "q01", "question": "How tall is Mount Everest?", "expected_answer": "Mount Everest is 8,849 meters above sea level.", "relevant_docs": ["everest"], "metadata": {"type": "factoid"}}
+{"id": "q02", "question": "Which mountain is the second highest on Earth?", "expected_answer": "K2", "relevant_docs": ["k2"], "metadata": {"type": "factoid"}}
+{"id": "q03", "question": "At what temperature does water boil at standard atmospheric pressure?", "expected_answer": "100 degrees Celsius", "relevant_docs": ["water"], "metadata": {"type": "factoid"}}
+{"id": "q04", "question": "Which planet is the closest to the Sun?", "expected_answer": "Mercury", "relevant_docs": ["mercury"], "metadata": {"type": "factoid"}}
+{"id": "q05", "question": "Which planet is the largest in the Solar System?", "expected_answer": "Jupiter", "relevant_docs": ["jupiter"], "metadata": {"type": "factoid"}}
+{"id": "q06", "question": "Why is Mars called the Red Planet?", "expected_answer": "Because of iron oxide on its surface", "relevant_docs": ["mars"], "metadata": {"type": "explanation"}}
+{"id": "q07", "question": "Which planet is the hottest in the Solar System?", "expected_answer": "Venus", "relevant_docs": ["venus"], "metadata": {"type": "factoid"}}
+{"id": "q08", "question": "Who created the Python programming language?", "expected_answer": "Guido van Rossum", "relevant_docs": ["python"], "metadata": {"type": "factoid"}}
+{"id": "q09", "question": "When was Python first released?", "expected_answer": "1991", "relevant_docs": ["python"], "metadata": {"type": "factoid"}}
+{"id": "q10", "question": "Who created Git and in what year?", "expected_answer": "Linus Torvalds created Git in 2005.", "relevant_docs": ["git"], "metadata": {"type": "factoid"}}
+{"id": "q11", "question": "Who first announced the Linux kernel and in what year?", "expected_answer": "Linus Torvalds in 1991", "relevant_docs": ["linux"], "metadata": {"type": "factoid"}}
+{"id": "q12", "question": "Which two software projects are associated with Linus Torvalds?", "expected_answer": "Linux and Git", "relevant_docs": ["linux", "git"], "metadata": {"type": "multi-document"}}
+{"id": "q13", "question": "What does the Domain Name System do?", "expected_answer": "It translates domain names into IP addresses.", "relevant_docs": ["dns"], "metadata": {"type": "explanation"}}
+{"id": "q14", "question": "What does HTTP status code 404 mean?", "expected_answer": "The requested resource was not found.", "relevant_docs": ["http"], "metadata": {"type": "factoid"}}
+{"id": "q15", "question": "Which pigment absorbs light in photosynthesis?", "expected_answer": "Chlorophyll", "relevant_docs": ["photosynthesis"], "metadata": {"type": "factoid"}}
+{"id": "q16", "question": "Which gas do plants release during photosynthesis?", "expected_answer": "Oxygen", "relevant_docs": ["photosynthesis"], "metadata": {"type": "paraphrase"}}
+{"id": "q17", "question": "What is called the powerhouse of the cell?", "expected_answer": "Mitochondria", "relevant_docs": ["mitochondria"], "metadata": {"type": "factoid"}}
+{"id": "q18", "question": "Who described the double helix structure of DNA?", "expected_answer": "James Watson and Francis Crick in 1953", "relevant_docs": ["dna"], "metadata": {"type": "factoid"}}
+{"id": "q19", "question": "What is the speed of light in a vacuum?", "expected_answer": "299,792,458 meters per second", "relevant_docs": ["light"], "metadata": {"type": "factoid"}}
+{"id": "q20", "question": "How fast does sound travel in air at 20 degrees Celsius?", "expected_answer": "About 343 meters per second", "relevant_docs": ["sound"], "metadata": {"type": "factoid"}}
+{"id": "q21", "question": "Which mission landed the first humans on the Moon?", "expected_answer": "Apollo 11", "relevant_docs": ["moon"], "metadata": {"type": "factoid"}}
+{"id": "q22", "question": "How long is the Nile?", "expected_answer": "About 6,650 kilometers", "relevant_docs": ["nile"], "metadata": {"type": "factoid"}}
+{"id": "q23", "question": "Which river has the largest water discharge in the world?", "expected_answer": "The Amazon River", "relevant_docs": ["amazon"], "metadata": {"type": "factoid"}}
+{"id": "q24", "question": "What is the deepest point in the ocean?", "expected_answer": "The Challenger Deep in the Mariana Trench", "relevant_docs": ["pacific"], "metadata": {"type": "factoid"}}
+{"id": "q25", "question": "What is the atomic number of gold?", "expected_answer": "79", "relevant_docs": ["gold"], "metadata": {"type": "factoid"}}
+{"id": "q26", "question": "What percent of Earth's atmosphere is nitrogen?", "expected_answer": "About 78 percent", "relevant_docs": ["nitrogen"], "metadata": {"type": "factoid"}}
+{"id": "q27", "question": "Which two gases make up most of Earth's atmosphere?", "expected_answer": "Nitrogen and oxygen", "relevant_docs": ["nitrogen", "oxygen"], "metadata": {"type": "multi-document"}}
+{"id": "q28", "question": "Which is taller, Mount Everest or K2?", "expected_answer": "Mount Everest", "relevant_docs": ["everest", "k2"], "metadata": {"type": "multi-document"}}
+{"id": "q29", "question": "When was the Eiffel Tower completed?", "expected_answer": "1889", "relevant_docs": ["eiffel"], "metadata": {"type": "factoid"}}
+{"id": "q30", "question": "Which paper introduced the Transformer architecture?", "expected_answer": "Attention Is All You Need", "relevant_docs": ["transformer"], "metadata": {"type": "factoid"}}
+{"id": "q31", "question": "What is retrieval-augmented generation?", "expected_answer": "It combines a retriever with a text generator; the retriever finds relevant documents and the generator uses them to write an answer.", "relevant_docs": ["rag"], "metadata": {"type": "explanation"}}
+{"id": "q32", "question": "What is BM25 based on?", "expected_answer": "Term frequency and inverse document frequency.", "relevant_docs": [{"id": "bm25", "grade": 2}, {"id": "rag", "grade": 1}], "metadata": {"type": "graded-relevance"}}
+{"id": "q33", "question": "Who won the 2050 football World Cup?", "expected_answer": null, "relevant_docs": [], "metadata": {"type": "unanswerable"}}
+{"id": "q34", "question": "What is the capital of Australia?", "expected_answer": null, "relevant_docs": [], "metadata": {"type": "unanswerable"}}
